@@ -4,7 +4,7 @@ import asyncio
 import os
 import pytz
 
-token = "NzkyODk4NTg1NTUyNjE3NDgz.GlcoXL.Uoynu4W1ugOdNlHuIkKG-sy4a-XiP7fZlnmr1I"
+token = open("token.txt", "r").read()
 
 intents = discord.Intents.default()
 intents.message_content = True
